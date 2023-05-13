@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Style for the header section */
+      header {
+        background-color: #200540;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Style for the navigation bar */
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      nav li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav li a:hover {
+        text-decoration: underline;
+      }
+
+      /* Style for the main section */
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      /* Style for the section headings */
+      h2 {
+        color: #1f0927;
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      /* Style for the form */
+      form {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+      }
+
+      label {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+
+      button[type="submit"] {
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #666;
+      }
+
+      /* Style for the footer section */
+      footer {
+        background-color: #333333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>About me</h2>
+        <p>Hi, I'm Pranav Salunke. This is my personal website where I share my interests and hobbies.</p>
+      </section>
+      <section>
+        <h2>My interests</h2>
+        <ul>
+          <li>Stunting</li>
+          <li>Reading</li>
+          <li>Traveling</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contact me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          
+        </form>
+      </section>
+    </main
